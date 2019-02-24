@@ -1,6 +1,6 @@
 # URL to chart
 
-Using `chart.js` and `chartjs-node`.
+Using [`chart.js`](https://github.com/chartjs/Chart.js) and [`chartjs-node`](https://github.com/vmpowerio/chartjs-node).
 
 ## Usage
 
