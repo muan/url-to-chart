@@ -1,0 +1,20 @@
+{
+  "name": "url-to-chart",
+  "version": "0.0.1",
+  "description": "URL to chart",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chartjs"
+  ],
+  "author": "Mu-An Chiou",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^2.6",
+    "chartjs-node": "^1.7.1",
+    "express": "^4.16.4",
+    "is-number": "^7.0.0"
+  }
+}
