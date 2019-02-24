@@ -2,6 +2,8 @@
 
 Using [`chart.js`](https://github.com/chartjs/Chart.js) and [`chartjs-node`](https://github.com/vmpowerio/chartjs-node).
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Usage
 
 With [`qs`](https://github.com/ljharb/qs):
