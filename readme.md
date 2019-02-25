@@ -16,7 +16,7 @@ require('qs').stringify({
   h: 400,
   type: 'doughnut',
   data: {
-    labels: ['VERY', 'USEFUL', 'CHART'],
+    labels: ['VE RY', 'USEFUL', 'CHART'],
     datasets: [
       {
         borderWidth: 5,
@@ -32,6 +32,8 @@ require('qs').stringify({
 
 URL: https://url-to-chart.herokuapp.com/?w=400&h=400&type=doughnut&data%5Blabels%5D%5B0%5D=VERY&data%5Blabels%5D%5B1%5D=USEFUL&data%5Blabels%5D%5B2%5D=CHART&data%5Bdatasets%5D%5B0%5D%5BborderWidth%5D=5&data%5Bdatasets%5D%5B0%5D%5BborderColor%5D=%23ffffff&data%5Bdatasets%5D%5B0%5D%5BbackgroundColor%5D%5B0%5D=%23ff8a8a&data%5Bdatasets%5D%5B0%5D%5BbackgroundColor%5D%5B1%5D=%23fbeb76&data%5Bdatasets%5D%5B0%5D%5BbackgroundColor%5D%5B2%5D=%23ffc08a&data%5Bdatasets%5D%5B0%5D%5Bdata%5D%5B0%5D=10&data%5Bdatasets%5D%5B0%5D%5Bdata%5D%5B1%5D=20&data%5Bdatasets%5D%5B0%5D%5Bdata%5D%5B2%5D=30
 
+Image:
+
 <img src="https://url-to-chart.herokuapp.com/?w=400&h=400&type=doughnut&data%5Blabels%5D%5B0%5D=VERY&data%5Blabels%5D%5B1%5D=USEFUL&data%5Blabels%5D%5B2%5D=CHART&data%5Bdatasets%5D%5B0%5D%5BborderWidth%5D=5&data%5Bdatasets%5D%5B0%5D%5BborderColor%5D=%23ffffff&data%5Bdatasets%5D%5B0%5D%5BbackgroundColor%5D%5B0%5D=%23ff8a8a&data%5Bdatasets%5D%5B0%5D%5BbackgroundColor%5D%5B1%5D=%23fbeb76&data%5Bdatasets%5D%5B0%5D%5BbackgroundColor%5D%5B2%5D=%23ffc08a&data%5Bdatasets%5D%5B0%5D%5Bdata%5D%5B0%5D=10&data%5Bdatasets%5D%5B0%5D%5Bdata%5D%5B1%5D=20&data%5Bdatasets%5D%5B0%5D%5Bdata%5D%5B2%5D=30" width="300">
 
 ### Line chart
@@ -42,10 +44,10 @@ require('qs').stringify({
   h: 400,
   type: 'line',
   data: {
-    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+    labels: ['JAN', 'FEB', 'MAR', 'APR', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'],
     datasets: [
       {
-        label: 'hello world',
+        label: 'HELLO WORLD',
         data: [25, 21, 23, 24, 22, 24, 24, 30, 29, 28, 31, 32]
       }
     ]
