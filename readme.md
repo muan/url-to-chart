@@ -16,7 +16,7 @@ require('qs').stringify({
   h: 400,
   type: 'doughnut',
   data: {
-    labels: ['VE RY', 'USEFUL', 'CHART'],
+    labels: ['VERY', 'USEFUL', 'CHART'],
     datasets: [
       {
         borderWidth: 5,
